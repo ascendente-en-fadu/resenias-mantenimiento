@@ -1,1 +1,114 @@
-<h1>Hello world</h1>
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <title>Reseñas FADU</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+<div id="container">
+<div id="titleContainer">
+    <span id="title1">Ascendente en FADU</span>
+    <span id="title2">RESEÑAS</span>
+    <span id="title3">FADU</span>
+</div>
+<div>
+    <div class="linkContainer">
+        <a
+          href='https://cafecito.app/ascendente_en_fadu'
+          target='_blank'
+          rel='noreferrer'
+          class="link"
+        >
+          Invitame un cafecito
+        </a>
+    </div>
+    <div class="linkContainer">
+        <a
+          href='https://www.instagram.com/ascendente_en_fadu/?hl=es'
+          target='_blank'
+          rel='noreferrer'
+          class="link"
+        >
+          @ascendente_en_fadu
+        </a>
+        <span id="version">
+          Versión v0.0.1
+        </span>
+    </div>
+</div>
+</div>
+
+<style>
+    @font-face {
+        font-family: "OpenSans Extra Bold";
+        src: url("fonts/OpenSans-ExtraBold.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "OpenSans Semi Bold";
+        src: url("fonts/OpenSans-SemiBold.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "OpenSans Light";
+        src: url("fonts/OpenSans-Light.ttf") format("truetype");
+    }
+    #container {
+        height: 95%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-self: center;
+    }
+    #titleContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    #title1 {
+        color: #D9D9D9;
+        font-size: 12px;
+        font-family: "Times New Roman";
+    }
+    #title2 {
+        color: #D17D00;
+        font-size: 60px;
+        line-height: 1;
+        font-family: "OpenSans Extra Bold";
+    }
+    #title3 {
+        color: #D17D00;
+        font-size: 30px;
+        font-family: "OpenSans Extra Bold";
+    }
+    #version {
+        color: #808080;
+        font-size: 12px;
+        flex: 1;
+        text-align: end;
+        font-family: "OpenSans Light";
+    }
+    .linkContainer {
+        margin: 5px 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .link {
+        font-size: 12px;
+        color: #D9D9D9;
+        margin-left: 5px;
+        font-family: "OpenSans Light";
+    }
+    body {
+        margin: 0;
+        background-color: #06001F;
+        display: flex;
+        justify-content: center;
+    }
+    html,
+    body,
+    #root {
+        height: 100%;
+    }
+</style>
+</body>
